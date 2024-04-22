@@ -141,6 +141,7 @@ a {
     display: flex;
     list-style-type: none;
     padding: 0;
+    color: blue;
 }
 .li-icon {
     margin-right: 100px;
