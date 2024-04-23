@@ -2,6 +2,7 @@
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 #header {
@@ -31,7 +32,7 @@
 #code {
     position: relative;
     font-size: 30px;
-    color: blue;
+    color: red;
 }
 
 #firstname {
@@ -47,7 +48,6 @@
     font-size: 30px;
     top: 8px;
     letter-spacing: 3px;
-    color: blue;
     transform: rotate(-8deg);
 }
 
