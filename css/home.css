@@ -45,7 +45,7 @@
 }
 
 .icons {
-    padding-top: 200px;
+  height: 200px;
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -54,17 +54,26 @@
 
 .ul-icons {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
     list-style-type: none;
     padding: 0;
     color: blue;
 }
 .li-icon {
-    margin-right: 100px;
+  width: 100px;
+  padding: 50px;
+}
+
+.li-icon:hover {
+  font-size: 60px;
+  transition: 1s;
 }
 
 .image {
     height: auto;
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: center;
     overflow: hidden;
