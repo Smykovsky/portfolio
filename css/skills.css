@@ -26,8 +26,9 @@
 .skill-card {
     display: flex;
     align-items: center;
-    width: calc(30% - 20px);
-    height: 200px;
+    justify-content: center;
+    width: calc(33% - 20px);
+    height: 100px;
     margin-bottom: 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -56,6 +57,11 @@
 
 .skill-icon i {
   color: white;
+}
+
+.skill-details {
+    display: flex;
+    justify-content: center;
 }
 
 .skill-details h3 {
