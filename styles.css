@@ -6,7 +6,7 @@ body, html {
 }
 
 #header {
-    font-family: cursive;
+    font-family: Arial;
     height: 10vh;
     display: flex;
     justify-content: space-between;

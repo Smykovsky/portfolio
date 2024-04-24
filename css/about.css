@@ -2,7 +2,7 @@
     background-color: #333333;
     display: flex;
     height: 90vh;
-    font-family: Arial, serif;
+    font-family: Arial;
     position: relative;
 }
 
@@ -21,17 +21,16 @@
 .about-container {
     width: 70%;
     height: 50%;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
 }
 
 .about-header {
     width: 100%;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
     padding-top: 50px;
 }
-
 
 .about-container p {
     font-size: 20px;

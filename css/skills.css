@@ -41,6 +41,7 @@
     background-color: #313131;
     scale: 1.1;
     transition: 1s;
+    transform: rotate(-2deg);
 }
 
 .skill-icon i {
@@ -62,10 +63,12 @@
 .skill-details {
     display: flex;
     justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
-.skill-details h3 {
-    margin: 0 0 10px;
+.skill-details span {
+    font-size: 25px;
 }
 
 .skill-details p {
