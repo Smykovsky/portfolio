@@ -1,9 +1,10 @@
 #main-contact {
-    background-color: #494848;
     display: flex;
     height: 90vh;
     font-family: Arial;
     position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .header {
@@ -16,4 +17,5 @@
 }
 .header span {
     font-size: 50px;
+    text-decoration: underline;
 }

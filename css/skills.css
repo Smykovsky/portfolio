@@ -1,9 +1,8 @@
 #main-skills {
     padding: 200px 300px 200px 300px;
-    background-color: #494848;
     display: flex;
-    flex-wrap: wrap; /* Pozwala na złożenie elementów w kolejne rzędy */
-    justify-content: space-between; /* Rozdziela elementy na szerokości kontenera */
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-content: center;
     height: 90vh;
     box-sizing: border-box;
@@ -21,6 +20,7 @@
 }
 .header span {
     font-size: 50px;
+    text-decoration: underline;
 }
 
 .skill-card {
@@ -32,13 +32,13 @@
     margin-bottom: 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #232323;
+    background-color: #81A263;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .skill-card:hover {
-    background-color: #313131;
+    background-color: #365E32;
     scale: 1.1;
     transition: 1s;
     transform: rotate(-2deg);

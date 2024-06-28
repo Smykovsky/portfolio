@@ -1,14 +1,12 @@
 #main-projects {
-    padding: 200px 300px 200px 300px;
-    background: linear-gradient(135deg, #494848, #000000 170%);
     display: flex;
-    flex-wrap: wrap; /* Pozwala na złożenie elementów w kolejne rzędy */
-    justify-content: space-between; /* Rozdziela elementy na szerokości kontenera */
-    align-content: center;
+    justify-content: center;
+    align-items: center;
     height: 90vh;
     box-sizing: border-box;
     position: relative;
     font-family: Arial;
+    overflow: hidden;
 }
 
 .header {
@@ -18,67 +16,65 @@
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1;
 }
 .header span {
     font-size: 50px;
+    text-decoration: underline;
 }
 
-.cards {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  overflow-y: auto;
-}
-
-.project-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: calc(33% - 20px);
-    height: 300px;
+.data {
+    width: 100%;
+    max-width: 800px;
     margin-bottom: 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #232323;
     padding: 20px;
     box-sizing: border-box;
+    z-index: 0;
+}
+
+.project-card {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #232323;
+    box-sizing: border-box;
 }
 
 .project-image {
-  width: 100%;
-  height: 50%;
+    width: 100%;
+    height: 400px;
 }
 
 .project-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Zapewnia, że obrazek wypełnia cały obszar */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .project-info {
-  width: 100%;
-  height: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-title {
-  font-size: 20px;
-  color: #fff;
-  margin-bottom: 10px;
-  text-align: center;
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .project-description {
-  font-size: 14px;
-  color: #ccc;
-  text-align: center;
-  line-height: 1.5;
-  overflow-y: scroll;
+    font-size: 14px;
+    color: #ccc;
+    text-align: center;
+    line-height: 1.5;
+    overflow-y: auto;
 }

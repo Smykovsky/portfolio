@@ -5,7 +5,6 @@ async function loadHTML(url) {
 
     xhr.onload = function () {
         if (xhr.status === 200) {
-            // Wstaw załadowany HTML do elementu o id "content"
             document.getElementById('content').innerHTML = xhr.responseText;
         }
     };
@@ -13,27 +12,23 @@ async function loadHTML(url) {
     xhr.send();
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-    const textElement = document.getElementById("fadeIn");
-    const textValue = "Full Stack Developer";
-    let index = 0;
-    let intervalId;
+function setActiveNavLink(url) {
+    const navLinks = document.querySelectorAll('.nav li');
+    navLinks.forEach(link => link.classList.remove('active'));
 
-function addLetter() {
-    if (index < textValue.length) {
-        textElement.textContent += textValue[index];
-        index++;
-    } else {
-        clearInterval(intervalId);
-        setTimeout(startTyping, 2000);
+    // Ustawienie aktywnej klasy dla odpowiedniego linku na podstawie URL
+    const activeLink = document.getElementById(getLinkIdFromUrl(url));
+    if (activeLink) {
+        activeLink.classList.add('active');
     }
 }
 
-function startTyping() {
-    textElement.textContent = '';
-    index = 0;
-    intervalId = setInterval(addLetter, 100);
+function changeStyle(elementName) {
+    const allLiElements = document.querySelectorAll(".nav li");
+    allLiElements.forEach(e => e.classList.remove("active"));
+    const liElement = document.getElementById(elementName);
+    liElement.classList.add("active");
+
 }
 
-startTyping();
-});
+

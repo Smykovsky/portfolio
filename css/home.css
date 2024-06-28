@@ -1,5 +1,4 @@
 #main-home {
-    background: linear-gradient(135deg, #494848, #000000 170%);
     font-family: Arial;
     height: 90vh;
     width: 100%;
@@ -17,11 +16,40 @@
 }
 .header span {
     font-size: 50px;
+    text-decoration: underline;
+}
+
+.data {
+    padding-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.photo {
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.photo img {
+    object-fit: cover;
 }
 
 .info {
-    width: 50%;
-    padding: 150px;
+    padding: 20px;
+    padding-left: 0;
 }
 
 .info h3 {
@@ -35,7 +63,7 @@
     white-space: nowrap;
     font-size: 40px;
     font-weight: bold;
-    color: red;
+    color: #2b35e3;
     display: inline-block;
     animation: typing 5s steps(20, end) forwards;
 }
@@ -60,7 +88,7 @@
     height: 100px;
     list-style-type: none;
     padding: 0;
-    color: blue;
+    color: #2b35e3;
 }
 .li-icon {
   width: 100px;
@@ -72,23 +100,4 @@
   transition: 1s;
 }
 
-.image {
-    height: auto;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-}
 
-.photo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    border-radius: 10%;
-    overflow: hidden;
-}
-
-.photo img {
-    object-fit: cover;
-}
