@@ -21,6 +21,7 @@
 .header span {
     font-size: 50px;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .skill-card {
@@ -32,13 +33,14 @@
     margin-bottom: 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #81A263;
+    background-color: #023e8a;
+    color: white;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .skill-card:hover {
-    background-color: #365E32;
+    background-color: #023e8a;
     scale: 1.1;
     transition: 1s;
     transform: rotate(-2deg);

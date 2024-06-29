@@ -21,6 +21,7 @@
 .header span {
     font-size: 50px;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .data {
@@ -77,4 +78,11 @@
     text-align: center;
     line-height: 1.5;
     overflow-y: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
 }
