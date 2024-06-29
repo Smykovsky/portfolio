@@ -21,11 +21,11 @@
 }
 
 .data {
-    padding-left: 25%;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .image {
@@ -56,6 +56,11 @@
 .info h3 {
     font-size: 30px;
     padding-top: 20px;
+}
+
+.info h3 span {
+  font-size: 50px;
+  padding-top: 20px;
 }
 
 .info #fadeIn {

@@ -20,13 +20,13 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="project-card">
+                        <div class="project-card"  data-toggle="modal" data-target="#backendModal">
                             <div class="project-image">
                                 <img src="../diet-project.png" class="d-block w-100" alt="Project Image">
                             </div>
                             <div class="project-info">
-                                <h3 class="project-title">111 Projektu</h3>
-                                <p class="project-description">Opis projektu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac velit sed nisi fermentum feugiat. Mauris ac neque non dui ullamcorper cursus.</p>
+                                <h3 class="project-title">Aplikacja wspomagająca zdrowy tryb życia</h3>
+                                <p class="project-description">Projekt, który ma na celu wspomóc użytkownika w prowadzeniu dziennika posiłków zjedzonych w ciągu dnia. Dzięki funkcji wyliczania kalorii na podstawie danych podanych przez użytkownika, aplikacja umożliwia dodawanie posiłków oraz produktów, nadzorowanie wagi, a także monitorowanie postępów w osiąganiu celów zdrowotnych.</p>
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@
                                 <img src="../me1.png" class="d-block w-100" alt="Project Image">
                             </div>
                             <div class="project-info">
-                                <h3 class="project-title">222 Projektu</h3>
+                                <h3 class="project-title">System zgłoszeń</h3>
                                 <p class="project-description">Opis projektu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac velit sed nisi fermentum feugiat. Mauris ac neque non dui ullamcorper cursus.</p>
                             </div>
                         </div>
@@ -63,6 +63,23 @@
                 </button>
             </div>
         </div>
+    </div>
+
+    <div class="modal fade" id="backendModal" tabindex="-1" role="dialog" aria-labelledby="backendModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="backendModalLabel">Backend links</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <span>Backend repo: </span><a style="color: black; text-decoration: underline" href="https://github.com/Smykovsky/fit-app-backend.git" target="_blank">https://github.com/Smykovsky/fit-app-backend.git</a><br>
+            <span>Frontend repo: </span><a style="color: black; text-decoration: underline" href="https://github.com/Smykovsky/fit-app-frontend.git" target="_blank">https://github.com/Smykovsky/fit-app-frontend.git</a>
+          </div>
+        </div>
+      </div>
     </div>
 </body>
 </html>
