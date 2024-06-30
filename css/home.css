@@ -54,12 +54,12 @@
 }
 
 .info h3 {
-    font-size: 30px;
+    font-size: 50px;
     padding-top: 20px;
 }
 
 .info h3 span {
-  font-size: 50px;
+  font-size: 60px;
   padding-top: 20px;
 }
 
@@ -67,7 +67,7 @@
     position: relative;
     overflow: hidden;
     white-space: nowrap;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     color: #2b35e3;
     display: inline-block;
