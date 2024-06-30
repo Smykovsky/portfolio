@@ -48,3 +48,39 @@
     font-size: 30px;
 }
 
+@media screen and (max-width: 950px) {
+  #main-about {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .header {
+    margin: 20px;
+    position: static;
+    text-align: center;
+  }
+
+  .header span {
+    font-size: 30px;
+    text-decoration: underline;
+  }
+
+  .data {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-container {
+    width: 80%;
+    margin: 50px 0;
+  }
+
+  .about-header span {
+    font-size: 26px;
+  }
+
+  .about-container p {
+    font-size: 16px;
+  }
+}
+

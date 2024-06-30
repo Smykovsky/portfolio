@@ -87,3 +87,50 @@
 .input-group button:hover {
   background-color: #0056b3;
 }
+
+@media screen and (max-width: 950px) {
+  #main-contact {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .header {
+    margin: 20px;
+    position: static;
+    text-align: center;
+  }
+
+  .header span {
+    font-size: 30px;
+    text-decoration: underline;
+  }
+
+  .data {
+    flex-direction: column;
+  }
+
+  .contact-form-container {
+    max-width: 80%;
+  }
+
+  .input-group {
+    margin-bottom: 10px;
+  }
+
+  .input-group input,
+  .input-group textarea {
+    font-size: 14px;
+  }
+
+  .input-group button {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .contact-form .input-group label, input{
+    font-size: 14px;
+  }
+}
