@@ -37,13 +37,13 @@ body, html {
 
 #code {
     position: relative;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
 }
 
 #firstname {
     position: relative;
-    font-size: 50px;
+    font-size: 40px;
     top: -8px;
     letter-spacing: 3px;
     transform: rotate(-8deg);
@@ -51,7 +51,7 @@ body, html {
 
 #lastname {
     position: relative;
-    font-size: 50px;
+    font-size: 40px;
     top: 8px;
     letter-spacing: 3px;
     transform: rotate(-8deg);
