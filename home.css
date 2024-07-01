@@ -106,9 +106,9 @@
     color: #2b35e3;
 }
 
-.li-icon.en span {
+.li-icon.cv span {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 10px;
@@ -194,9 +194,9 @@
     padding: 5px;
   }
 
-  .li-icon.en span {
+  .li-icon.cv span {
     font-size: 8px;
-    top: 20%;
+    top: 40%;
   }
 
   .li-icon:hover {

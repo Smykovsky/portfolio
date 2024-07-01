@@ -91,7 +91,7 @@
 @media screen and (max-width: 950px) {
   #main-contact {
     flex-direction: column;
-    height: auto;
+    height: 90vh;
   }
 
   .header {
@@ -111,6 +111,7 @@
 
   .contact-form-container {
     max-width: 80%;
+    margin-bottom: 50px;
   }
 
   .input-group {

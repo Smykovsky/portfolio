@@ -16,7 +16,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
 }
 .header span {
     font-size: 50px;
@@ -100,7 +99,6 @@
   #main-projects {
     flex-direction: column;
     height: auto;
-    overflow: hidden;
   }
 
   .header {

@@ -51,7 +51,7 @@
 @media screen and (max-width: 950px) {
   #main-about {
     flex-direction: column;
-    height: auto;
+    height: 90vh;
   }
 
   .header {
