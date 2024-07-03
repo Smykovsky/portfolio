@@ -27,16 +27,32 @@
             <p id="firstname">Kamil</p>
             <p id="lastname">Smyk</p>
         </div>
-        <nav>
+        <nav id="nav-normal">
             <ul class="nav">
-                <li id="home" onclick="loadHTML('home.html') && changeStyle('home')">Home</li>
-                <li id="about" onclick="loadHTML('about.html') && changeStyle('about')">About me</li>
-                <li id="skills" onclick="loadHTML('skills.html') && changeStyle('skills')">Skills</li>
-                <li id="projects" onclick="loadHTML('projects.html') && changeStyle('projects')">Projects</li>
-                <li id="contact" onclick="loadHTML('contact.html') && changeStyle('contact')">Contact</li>
+                <li id="home" onclick="loadHTML('home.html') && changeStyle('home')"><i class="fa-solid fa-house"></i><span>Home</span></li>
+                <li id="about" onclick="loadHTML('about.html') && changeStyle('about')"><i class="fa-solid fa-person"></i>About me</li>
+                <li id="skills" onclick="loadHTML('skills.html') && changeStyle('skills')"><i class="fas fa-tools"></i>Skills</li>
+                <li id="projects" onclick="loadHTML('projects.html') && changeStyle('projects')"><i class="fa-solid fa-code"></i>Projects</li>
+                <li id="contact" onclick="loadHTML('contact.html') && changeStyle('contact')"><i class="fa-solid fa-envelope"></i>Contact</li>
+            </ul>
+        </nav>
+        <nav>
+            <i id="toggleButtonOff" onclick="openMenu()" class="fa-solid fa-toggle-off"></i>
+            <i id="toggleButtonOn" onclick="hideMenu()" class="fa-solid fa-toggle-on"></i>
+        </nav>
+        <nav id="nav-mobile">
+            <ul class="nav">
+                <li id="home-mobile" onclick="(() => {loadHTML('home.html'); hideMenu(); changeStyle('home')})();"><i class="fa-solid fa-house"></i>Home</li>
+                <li id="about-mobile" onclick="(() => {loadHTML('about.html'); hideMenu(); changeStyle('about')})();"><i class="fa-solid fa-person"></i>About me</li>
+                <li id="skills-mobile" onclick="(() => {loadHTML('skills.html'); hideMenu(); changeStyle('skills')})();"><i class="fas fa-tools"></i>Skills</li>
+                <li id="projects-mobile" onclick="(() => {loadHTML('projects.html'); hideMenu(); changeStyle('projects')})();"><i class="fa-solid fa-code"></i>Projects</li>
+                <li id="contact-mobile" onclick="(() => {loadHTML('contact.html'); hideMenu(); changeStyle('contact')})();"><i class="fa-solid fa-envelope"></i>Contact</li>
             </ul>
         </nav>
     </header>
+
+
+
 
     <div id="content" class="container-fluid"></div>
 

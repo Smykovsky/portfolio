@@ -79,20 +79,19 @@
     overflow-y: auto;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+.carousel-control-prev-icon, .carousel-control-next-icon {
     background-color: black;
     border-radius: 50%;
     padding: 10px;
 }
 
 #backendModal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: auto;
-  white-space: nowrap;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    white-space: nowrap;
 }
 
 @media screen and (max-width: 950px) {
@@ -136,12 +135,12 @@
     text-align: center;
   }
 
-    #backendModal {
-        font-size: 10px;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+#backendModal {
+    font-size: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 }
 

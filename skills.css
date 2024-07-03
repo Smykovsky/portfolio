@@ -1,10 +1,10 @@
 #main-skills {
-  display: flex;
-  height: 90vh;
-  font-family: Arial;
-  position: relative;
-  box-sizing: border-box;
-  overflow: hidden;
+    display: flex;
+    height: 90vh;
+    font-family: Arial;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .header {
@@ -54,20 +54,20 @@
 }
 
 .skill-icon {
-  margin-right: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
 .skill-icon i {
-  color: white;
+    color: white;
 }
 
 .nuxt-img {
-  width: 40px;
-  height: 30px;
+    width: 40px;
+    height: 30px;
 }
 
 .spring-img {
