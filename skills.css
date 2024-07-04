@@ -53,8 +53,8 @@
     color: #333;
 }
 
-.skill-icon {
-    margin-right: 20px;
+.skill-card .skill-icon {
+    margin: 0 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,6 +63,7 @@
 
 .skill-icon i {
     color: white;
+  padding: 5px;
 }
 
 .nuxt-img {
