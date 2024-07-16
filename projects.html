@@ -15,14 +15,14 @@
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-<!--                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>-->
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
 <!--                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>-->
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="project-card"  data-toggle="modal" data-target="#backendModal">
                             <div class="project-image">
-                                <img src="diet-project.png" class="d-block w-100" alt="Project Image">
+                                <img src="diet-project.png" class="d-block w-100" alt="First Slide">
                             </div>
                             <div class="project-info">
                                 <h3 class="project-title">Aplikacja wspomagająca zdrowy tryb życia</h3>
@@ -30,7 +30,19 @@
                             </div>
                         </div>
                     </div>
+                    <div class="carousel-item">
+                        <div class="project-card" data-toggle="modal" data-target="#serviceDeskModal">
+                            <div class="project-image">
+                                <img src="serviceDesk-project.jpg" class="d-block w-100" alt="Second Slide">
+                            </div>
+                            <div class="project-info">
+                                <h3 class="project-title">System zgłoszeń</h3>
+                                <p class="project-description">Aplikacją umozliwiająca zarządzenie zgłoszeniami wysłanymi przez użytkowników.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
@@ -47,7 +59,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="backendModalLabel">Backend links</h5>
+            <h5 class="modal-title" id="backendModalLabel">Repository links</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -55,9 +67,47 @@
           <div class="modal-body">
             <span>Backend repo: </span><a style="color: black; text-decoration: underline" href="https://github.com/Smykovsky/fit-app-backend.git" target="_blank">https://github.com/Smykovsky/fit-app-backend.git</a><br>
             <span>Frontend repo: </span><a style="color: black; text-decoration: underline" href="https://github.com/Smykovsky/fit-app-frontend.git" target="_blank">https://github.com/Smykovsky/fit-app-frontend.git</a>
+              <div class="technologies">
+                  <span> Technologies used:</span>
+                  <ul>
+                      <li>Java</li>
+                      <li>Spring Boot</li>
+                      <li>JWT Authentication</li>
+                      <li>JavaScript</li>
+                      <li>Nuxt.js</li>
+                      <li>MySQL</li>
+                  </ul>
+              </div>
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="modal fade" id="serviceDeskModal" tabindex="-1" role="dialog" aria-labelledby="serviceDeskModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="serviceDeskModalLabel">Repository links</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <span>Backend repo: </span><a style="color: black; text-decoration: underline" href="https://github.com/Smykovsky/serviceDesk-backend.git" target="_blank">https://github.com/Smykovsky/serviceDesk-backend.git</a><br>
+                    <span>Frontend repo: </span><a style="color: black; text-decoration: underline" href="https://github.com/Smykovsky/serviceDesk-frontend.git" target="_blank">https://github.com/Smykovsky/serviceDesk-frontend.git</a>
+                    <div class="technologies">
+                        <span> Technologies used:</span>
+                        <ul>
+                            <li>Java</li>
+                            <li>Spring Boot</li>
+                            <li>JWT Authentication</li>
+                            <li>JavaFX</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
