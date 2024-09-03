@@ -16,7 +16,7 @@
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-<!--                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>-->
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -41,6 +41,17 @@
                             </div>
                         </div>
                     </div>
+                  <div class="carousel-item">
+                    <div class="project-card" data-toggle="modal" data-target="#reservationModal">
+                      <div class="project-image">
+                        <img style="width: 100%; height: auto" src="reservation.png" class="d-block w-100" alt="Second Slide">
+                      </div>
+                      <div class="project-info">
+                        <h3 class="project-title">System rezerwacji biletów kinowych</h3>
+                        <p class="project-description">Aplikacją slużąca do rezerwacji biletów kinowych.</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -108,6 +119,33 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="modal fade" id="reservationModal" tabindex="-1" role="dialog" aria-labelledby="reservationModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="reservationLabel">Repository links</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <span>Backend repo: </span><a style="color: black; text-decoration: underline" href="https://github.com/Smykovsky/cinema-reservation-backend.git" target="_blank">https://github.com/Smykovsky/cinema-reservation-backend.git</a><br>
+            <div class="technologies">
+              <span> Technologies used:</span>
+              <ul>
+                <li>Java</li>
+                <li>Microservices structure</li>
+                <li>Spring Boot</li>
+                <li>Spring Cloud</li>
+                <li>JWT Authentication</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 </body>
 </html>
